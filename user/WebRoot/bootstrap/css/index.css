@@ -1,0 +1,42 @@
+body {
+	background: url(../../images/index.jpg);
+}
+#navigation {
+	height: 80px;
+}
+#nav_font {
+	font-size: 16px;
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#nav_font a:hover {
+	color: #AA0000;
+	font-size:110%;
+}
+#logo {
+	height: 46px;
+	width: 46px;
+	margin-top: 2px;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+#nav_child {
+	position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+}
+#text {
+
+	position: absolute;
+    top: 40%;
+    left: 48%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+#design{
+	position: absolute;
+	top: 120%;
+	transform: translateX(520%);
+}
